@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: seashell;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  min-height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+img {
+  max-width: 1000px;
+}
+
+.navlink {
+  margin-right: 15px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+#mission-section {
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(assets/img-mission-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+#mission-content {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tea-of-month-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#small-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 15px 0px;
+  justify-content: center;
+}
+
+.small-img-wrapper {
+  margin: 10px;
+}
+.small-img-wrapper img {
+  height: 200px;
+  width: 300px;
+}
